@@ -1,5 +1,5 @@
 a.out:main.o signup.o signin.o menu2.o reserve.o train1.o seat1.o passenger.o cancel.o book.o
-        cc trainticket.o signup.o signin.o menu2.o reserve.o train1.o seat1.o passenger.o cancel.o book.o
+        cc main.o signup.o signin.o menu2.o reserve.o train1.o seat1.o passenger.o cancel.o book.o
 main.o:main.c
         cc -c main.c
 signup.o:signup.c
